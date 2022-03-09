@@ -1,0 +1,40 @@
+Interactuar la interface => servidor
+
+
+
+
+Frameworks a utilizar
+
+
+NodeJs => Servidor / Base de Datos
+
+
+Pra comunicar Servidor con Front=> servidor
+HTTP: Rest + API
+
+        Habra un direccion api/notes, que cuando se lo solicite => devolvera los datos relacionado con las notas
+
+        Habra un direccion api/users, que cuando se lo solicite => devolvera los datos relacionado con las usuarios
+
+
+
+ReactJs => Front end
+
+
+ <Router>
+      <Navigation/>
+
+
+      <Route exact path="/" component={NoteList} />
+      <Route path="/edit/:id" component={CreateNote} />
+      <Route path="/create" component={CreateNote} />
+      <Route path="/user" component={CreateUser} />
+
+    </Router>
+
+
+
+npm install axios HTTP
+npm install
+
+
